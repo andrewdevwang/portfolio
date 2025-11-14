@@ -156,13 +156,13 @@ body {
     }
 }
 
-/*  */
+/* Spacing of elements inside navbar */
 .navbar li {
     margin: 0;
     padding: 0;
 }
 
-/*  */
+/* Colors and spacing of links in navbar */
 .navbar a {
     color: black;
     text-decoration: none;
@@ -172,7 +172,7 @@ body {
     position: relative;
 }
 
-/*  */
+/* Bottom border of links in navbar */
 .navbar a::after {
     content: "";
     position: absolute;
@@ -190,25 +190,25 @@ body {
     display: none !important;
 }
 
-/*  */
+/* Colors of links in navbar when you hover over them */
 .navbar a.active::after,
 .navbar a.active:hover::after {
     width: 100%;
     background-color: #333356; 
 }
 
-/*  */
+/* Colors of active links in navbar */
 .navbar a.active {
     color: #333356;
     
 }
 
-/*  */
+/* Color of links when you hover over them */
 .navbar a:hover {
     color: #333356;
 }
 
-/*  */
+/* Width of the effect bottom border of button when you hover */
 .navbar a:hover::after {
     width: 100%;
 }
@@ -223,7 +223,7 @@ h1 {
     display: block;
 }
 
-/*  */
+/* Alignment of h2 */
 h2 {
     text-align: center;
 }
@@ -255,58 +255,58 @@ h2 {
     margin: 0 auto;
 }
 
-/*  */
+/* Profile picture */
 .profile-section img {
     width: 500px;
     height: auto;
     border-radius: 1000px;
 }
 
-/*  */
+/* Text content */
 .profile-section .text-content {
     flex: 1;
 }
 
-/*  */
+/* Alignment of text content */
 .profile-section h2 {
     margin: 0;
     font-size: 60px;
     text-align: left;
 }
 
-/*  */
+/* Paragraphs */
 .profile-section p {
     margin: 30px 0 0;
     font-size: 16px;
 }
 
-/*  */
+/* Location texts on index page */
 p.info {
     font-weight: bold;
     font-size: 20px;
     color: #333356;
 }
 
-/*  */
+/* Properties of slash "/" */
 p.info span.slash {
     color: black;
     font-weight: normal;
 }
 
-/*  */
+/* About me text */
 p.about {
     font-weight: normal;
     font-size: 20px;
     color: black;
 }
 
-/*  */
+/* About me link */
 .about a {
     color: #0563C1;
     text-decoration: none;
 }
 
-/*  */
+/* About me link when you hover over it */
 .about a:hover {
     text-decoration: underline;
     color: #333356;
@@ -324,7 +324,7 @@ p.about {
     transition: background-color 0.3s ease;
 }
 
-/*  */
+/* Resume button when you hover over it */
 .resume-button:hover {
     background-color: #555588;
     color: #D3D3D3;
@@ -338,7 +338,7 @@ p.about {
     text-align: center;
 }
 
-/*  */
+/* Font type */
 .programming-code {
     font-family: monospace;
 }
@@ -353,7 +353,7 @@ p.about {
     padding: 0 20px;
 }
 
-/*  */
+/* Project link */
 .project-link {
     text-decoration: none;
     color: inherit;
@@ -361,7 +361,7 @@ p.about {
     max-width: 750px; /* Increased to allow wider projects */
 }
 
-/*  */
+/* Project section */
 .project-section {
     display: flex;
     flex-direction: row;
@@ -373,45 +373,45 @@ p.about {
     gap: 20px; /* Space between text and image */
 }
 
-/*  */
+/* Project section when you hover over it */
 .project-section:hover {
     background-color: #f9f9f9;
     cursor: pointer;
 }
 
-/*  */
+/* Project text */
 .project-text {
     flex: 1;
     padding-right: 20px; /* Additional padding between text and image */
 }
 
-/*  */
+/* Project image */
 .project-image {
     flex-shrink: 0; /* Prevents image from shrinking */
     margin-left: auto; /* Pushes image to the right */
 }
 
-/*  */
+/* Project title */
 .project-title {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
 }
 
-/*  */
+/* Project subheading */
 .project-subheading {
     font-size: 16px;
     color: gray;
     margin: 5px 0 15px;
 }
 
-/*  */
+/* Project image */
 .project-image {
     flex-shrink: 0;
     text-align: right;
 }
 
-/*  */
+/* Project image */
 .project-image img {
     width: 250px;
     height: 200px;
